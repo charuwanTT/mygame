@@ -158,8 +158,4 @@ function animate() {
 animate();
 
 
-// โหลดภาพพื้นหลัง
-const loader = new THREE.TextureLoader();
-loader.load('https://img.pikbest.com/back_our/20210930/bg/45a6402923931bce3f7dc655d5b34f1f_102583.png!sw800', function(texture) {
-    scene.background = texture;
-});
+
