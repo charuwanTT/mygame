@@ -157,33 +157,4 @@ function animate() {
 }
 animate();
 
-// ตัวแปรเก็บตำแหน่งเริ่มต้นของการสัมผัส
-let touchStartX = 0;
-let touchStartY = 0;
 
-document.addEventListener("touchstart", (event) => {
-    const touch = event.touches[0];  // รับค่าการสัมผัสแรก
-    touchStartX = touch.clientX;
-    touchStartY = touch.clientY;
-});
-
-document.addEventListener("touchmove", (event) => {
-    event.preventDefault(); // ป้องกันการเลื่อนหน้าจอขณะเล่นเกม
-    if (event.touches.length > 0) {
-        const touch = event.touches[0];
-        const dx = touch.clientX - touchStartX;
-        const dy = touch.clientY - touchStartY;
-
-        // ตั้งค่าความไวของการลากนิ้ว
-        const sensitivity = 0.005;
-
-        // คำนวณความเร็วจากการลากนิ้ว
-        speedX = dx * sensitivity;
-        speedY = -dy * sensitivity; // กลับทิศทาง Y เพราะจอมือถือ Y เพิ่มขึ้นเมื่อเลื่อนลง
-    }
-});
-
-document.addEventListener("touchend", () => {
-    speedX = 0;
-    speedY = 0;
-});
