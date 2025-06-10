@@ -62,7 +62,7 @@ uvicorn main:app --reload
 
 
  ## เชื่อมต่อกับ ngrok
- กด split Terminal แล้ว run คพสั่งด้านล่างนี้
+ กด split Terminal แล้ว run คำสั่งด้านล่างนี้
  ```bash
 # เชื่อม ngrok
 ngrok http 8000
