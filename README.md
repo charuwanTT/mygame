@@ -37,17 +37,18 @@ ollama run qwen:7b-chat
 ![Screenshot 2025-06-10 231533](https://github.com/user-attachments/assets/87b03cc1-c237-443b-b842-157c48dd3c26)
 
 
- ![212]("C:\Users\publi\Internship\chatbot_VSCode\Screenshot 2025-06-10 231205.png")
+![Screenshot 2025-06-10 231205](https://github.com/user-attachments/assets/3726dea7-d20b-4d25-bd8c-48087b015cba)
+
 
 
 # 3. เชื่อมต่อกับ Line 
   ## ทำการเอา Key ต่างๆมาใช้
-  LINE_CHANNEL_ACCESS_TOKEN=ใส่โทเคนที่ได้จาก LINE Developer Console
+  - LINE_CHANNEL_ACCESS_TOKEN=ใส่โทเคนที่ได้จาก LINE Developer Console
   
-  LINE_CHANNEL_SECRET=ใส่ซีเคร็ตที่ได้จาก LINE Developer Console
- ![alt text]("C:\Users\publi\OneDrive\Pictures\Screenshots\Screenshot 2025-06-10 232144.png")
-
+  - LINE_CHANNEL_SECRET=ใส่ซีเคร็ตที่ได้จาก LINE Developer Console
+![Screenshot 2025-06-10 232144](https://github.com/user-attachments/assets/2336083e-3163-40aa-9a7e-411e660cf202)
 ในบรรทัดที่ 165,166
+
 
 # 4. ทำการ run Project
  ## เปิด Terminal ใช่คำสั่งด้านล่างนี้
@@ -56,7 +57,8 @@ ollama run qwen:7b-chat
 # run Prooject
 uvicorn main:app --reload
 ```
-![alt text]("C:\Users\publi\OneDrive\Pictures\Screenshots\Screenshot 2025-06-10 233029.png")
+![Screenshot 2025-06-10 233029](https://github.com/user-attachments/assets/6a7cacc7-0eaa-4ba6-b3f9-15754057d51b)
+
 
 
  ## เชื่อมต่อกับ ngrok
@@ -67,11 +69,12 @@ ngrok http 8000
 
 ```
  หลังจากนั้นจะได้ URL มา ให้นำไปใส่ใน Webhook ของ Line
- ![alt text]("C:\Users\publi\OneDrive\Pictures\Screenshots\Screenshot 2025-06-10 233255.png")
+![Screenshot 2025-06-10 233255](https://github.com/user-attachments/assets/382eb610-c55b-48fb-bf7b-1af1ced2c0b0)
+
 
  นำไปใส่ใน Webhook URL
- ![alt text]("c:\Users\publi\OneDrive\Pictures\Screenshots\Screenshot 2025-06-10 233212.png")
- 
- หลังจากนั้นทดลองเล่นแชทบอทได้เลย 
+![Screenshot 2025-06-10 233212](https://github.com/user-attachments/assets/fa52811e-f379-458f-b339-1f6f46818206)
+
+หลังจากนั้นทดลองเล่นแชทบอทได้เลย 
 
 
