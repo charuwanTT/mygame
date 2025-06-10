@@ -34,7 +34,8 @@ ollama run qwen:7b-chat
 
 ```
 **เลือกใช้ Model ตามที่ต้องการ เมื่อได้ Model ที่ต้องการให้ทำการแก้ไข Code ใน file **app.py** ใน บรรทัดที่ 144 และ 212**
-("C:\Users\publi\OneDrive\Pictures\Screenshots\Screenshot 2025-06-10 231533.png")
+![Screenshot 2025-06-10 231533](https://github.com/user-attachments/assets/87b03cc1-c237-443b-b842-157c48dd3c26)
+
 
  ![212]("C:\Users\publi\Internship\chatbot_VSCode\Screenshot 2025-06-10 231205.png")
 
