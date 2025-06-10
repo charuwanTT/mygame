@@ -1,4 +1,4 @@
-**Chatbot LLM + Line**
+# **Chatbot LLM + Line**
 
 # 1. Clone โปรเจกต์
 ทำการ Clone git ของเราไปไว้ใน Folder ที่สะดวก
@@ -34,16 +34,16 @@ ollama run qwen:7b-chat
 
 ```
 # เลือกใช้ Model ตามที่ต้องการ เมื่อได้ Model ที่ต้องการให้ทำการแก้ไข Code ใน file **app.py** ใน บรรทัดที่ 144 และ 212
- ![alt text](<Screenshot 2025-06-10 231533.png>)
+ ![alt text]("C:\Users\publi\OneDrive\Pictures\Screenshots\Screenshot 2025-06-10 231533.png")
  144
- ![alt text](<Screenshot 2025-06-10 231205.png>)
+ ![alt text]("C:\Users\publi\OneDrive\Pictures\Screenshots\Screenshot 2025-06-10 231205.png")
  212
 
 # 3. เชื่อมต่อกับ Line 
   ## ทำการเอา Key ต่างๆมาใช้
   LINE_CHANNEL_ACCESS_TOKEN=ใส่โทเคนที่ได้จาก LINE Developer Console
   LINE_CHANNEL_SECRET=ใส่ซีเคร็ตที่ได้จาก LINE Developer Console
- ![alt text](<Screenshot 2025-06-10 232144.png>)
+ ![alt text]("C:\Users\publi\OneDrive\Pictures\Screenshots\Screenshot 2025-06-10 232144.png")
 
 ในบรรทัดที่ 165,166
 
@@ -54,7 +54,7 @@ ollama run qwen:7b-chat
 # run Prooject
 uvicorn main:app --reload
 ```
-![alt text](<Screenshot 2025-06-10 233029.png>)
+![alt text]("C:\Users\publi\OneDrive\Pictures\Screenshots\Screenshot 2025-06-10 233029.png")
 
 
  ## เชื่อมต่อกับ ngrok
@@ -65,9 +65,11 @@ ngrok http 8000
 
 ```
  หลังจากนั้นจะได้ URL มา ให้นำไปใส่ใน Webhook ของ Line
- ![alt text](<Screenshot 2025-06-10 233255.png>)
+ ![alt text]("C:\Users\publi\OneDrive\Pictures\Screenshots\Screenshot 2025-06-10 233255.png")
 
  นำไปใส่ใน Webhook URL
- ![alt text](<Screenshot 2025-06-10 233212.png>)
+ ![alt text]("c:\Users\publi\OneDrive\Pictures\Screenshots\Screenshot 2025-06-10 233212.png")
  
  หลังจากนั้นทดลองเล่นแชทบอทได้เลย 
+
+
