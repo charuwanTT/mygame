@@ -33,15 +33,16 @@ ollama run mistral
 ollama run qwen:7b-chat
 
 ```
-# เลือกใช้ Model ตามที่ต้องการ เมื่อได้ Model ที่ต้องการให้ทำการแก้ไข Code ใน file **app.py** ใน บรรทัดที่ 144 และ 212
- ![alt text]("C:\Users\publi\OneDrive\Pictures\Screenshots\Screenshot 2025-06-10 231533.png")
- 144
- ![alt text]("C:\Users\publi\OneDrive\Pictures\Screenshots\Screenshot 2025-06-10 231205.png")
- 212
+**เลือกใช้ Model ตามที่ต้องการ เมื่อได้ Model ที่ต้องการให้ทำการแก้ไข Code ใน file **app.py** ใน บรรทัดที่ 144 และ 212**
+ ![144]("C:\Users\publi\Internship\chatbot_VSCode\Screenshot 2025-06-10 231533.png")
+
+ ![212]("C:\Users\publi\Internship\chatbot_VSCode\Screenshot 2025-06-10 231205.png")
+
 
 # 3. เชื่อมต่อกับ Line 
   ## ทำการเอา Key ต่างๆมาใช้
   LINE_CHANNEL_ACCESS_TOKEN=ใส่โทเคนที่ได้จาก LINE Developer Console
+  
   LINE_CHANNEL_SECRET=ใส่ซีเคร็ตที่ได้จาก LINE Developer Console
  ![alt text]("C:\Users\publi\OneDrive\Pictures\Screenshots\Screenshot 2025-06-10 232144.png")
 
