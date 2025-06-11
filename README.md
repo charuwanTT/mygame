@@ -5,7 +5,7 @@
 
 # 2. เปิด VS code เพื่อเปิด Folder Project
 
-เมื่อเปิดแล้ว Downlode VENV เพื่อใช้ไลบารี่ต่างๆ ให้สะดวกต่อการใช้งาน
+เมื่อเปิดแล้ว Download VENV เพื่อใช้ไลบารี่ต่างๆ ให้สะดวกต่อการใช้งาน
 
 **สร้าง VENV**
 
@@ -13,13 +13,13 @@
 # สร้าง venv
 python -m venv venv
 source venv/bin/activate         # บน macOS / Linux
-venv\Scripts\activate            # บน Windows
+.venv\Scripts\activate            # บน Windows
 ```
 **run requirements.txt เพื่อโหลดไลบารี่ที่จำเป็นสำหรับ Project**
 ```bash
 pip install -r requirements.txt
 ```
-**Downlode Model ที่ต้องการจะใช้ ผ่าน Ollama (LLM)**
+**Download Model ที่ต้องการจะใช้ ผ่าน Ollama (LLM)**
 - ollama3:latest
 - mistral
 - qwen7b-chat
@@ -55,7 +55,7 @@ ollama run qwen:7b-chat
  
 ```bash
 # run Prooject
-uvicorn main:app --reload
+uvicorn app:app --reload
 ```
 ![Screenshot 2025-06-10 233029](https://github.com/user-attachments/assets/6a7cacc7-0eaa-4ba6-b3f9-15754057d51b)
 
@@ -72,7 +72,7 @@ ngrok http 8000
 ![Screenshot 2025-06-10 233255](https://github.com/user-attachments/assets/382eb610-c55b-48fb-bf7b-1af1ced2c0b0)
 
 
- นำไปใส่ใน Webhook URL
+ นำไปใส่ใน Webhook URL (ต้องเติมคำว่า /webhook ตามหลัง URL ที่ได้มาจาก ngrok)
 ![Screenshot 2025-06-10 233212](https://github.com/user-attachments/assets/fa52811e-f379-458f-b339-1f6f46818206)
 
 หลังจากนั้นทดลองเล่นแชทบอทได้เลย 
