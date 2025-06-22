@@ -10,31 +10,22 @@
 ---
 ## การสร้าง Project 
 ### 1. สร้าง Folder Project ไว้ที่สะดวก โดยมีโครงสร้างใน Visual studio Code ดังนี้
--  chatbot-project/
-
-    ├── appsmez                     # ข้อมูลบริษัท
-   
-    ├── fooddee                     # ข้อมูลบริษัท
-
-    ├── scspark                     # ข้อมูลบริษัท
-
-    ├── app.py                      # FastAPI main server
-
-    ├── ollama_client.py            # เชื่อมต่อกับ Ollama และเรียกใช้โมเดล llama3
-
-    ├── RAG_pipeline.py             # ระบบค้นหาและสกัดข้อมูล (RAG)
-
-    ├── embedder.py                 # โมดูลสำหรับฝังข้อมูล (embedding)
-
-    ├── requirements.txt            # รายการ dependencies
-
-    ├── static/
-    │   └── script.js               # JavaScript สำหรับ UI
-
-    ├── templates/
-        └── index.html              # HTML Template หลัก
-
-    ├── .env  
+```bash
+chatbot-project/
+├── appsmez                     # ข้อมูลบริษัท
+├── fooddee                     # ข้อมูลบริษัท
+├── scspark                     # ข้อมูลบริษัท
+├── app.py                      # FastAPI main server
+├── ollama_client.py            # เชื่อมต่อกับ Ollama และเรียกใช้โมเดล llama3
+├── RAG_pipeline.py             # ระบบค้นหาและสกัดข้อมูล (RAG)
+├── embedder.py                 # โมดูลสำหรับฝังข้อมูล (embedding)
+├── requirements.txt            # รายการ dependencies
+├── static/
+     └── script.js               # JavaScript สำหรับ UI
+├── templates/
+    └── index.html              # HTML Template หลัก
+├── .env
+```
 ### 2. ข้อมูลของบริษัท
 -  https://drive.google.com/drive/u/1/folders/1yBW0ueM-o9sXi4EGdyuPirJ8_4SFCC4F?usp=sharing
 
