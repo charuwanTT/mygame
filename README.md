@@ -11,6 +11,7 @@
 ## การสร้าง Project 
 ### 1. สร้าง Folder Project ไว้ที่สะดวก โดยมีโครงสร้างใน Visual studio Code ดังนี้
 -  chatbot-project/
+
     ├── appsmez                     # ข้อมูลบริษัท
    
     ├── fooddee                     # ข้อมูลบริษัท
